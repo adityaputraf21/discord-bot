@@ -1,5 +1,3 @@
-const natural = require('natural');
-
 function parseReminderDate(input) {
   // Format: "YYYY-MM-DD HH:mm" atau natural language
   const isoRegex = /(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/;
